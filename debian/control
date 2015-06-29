@@ -1,12 +1,11 @@
 Source: edid-decode
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Andrew Shadura <andrewsh@debian.org>
 Build-Depends:
- debhelper (>= 7),
+ debhelper (>= 9),
  pkg-config,
- dpkg-dev (>= 1.14.17)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.6
 
 Package: edid-decode
 Architecture: any
@@ -15,4 +14,3 @@ Description: Decodes to text the binary EDID information from monitors
  EDID is binary data encoded in the monitor firmware, which the kernel
  exposes via /sys/devices/.../drm/card*/card*/edid.  edid-decode renders
  this binary data into a human-readable text form.
- .
