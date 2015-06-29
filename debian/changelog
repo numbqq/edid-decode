@@ -1,0 +1,20 @@
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu3) natty; urgency=low
+
+  * The package depends on debhelper >= 7; hence, set debian/compat to "7"
+  * Call dh_installchangelogs (LP: #684954)
+  * Remove the Uploaders field, it's not needed
+
+ -- Lorenzo De Liso <blackz@ubuntu.com>  Sat, 12 Mar 2011 21:46:48 +0100
+
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu2) natty; urgency=low
+
+  * Disable quilt magic for now as no patches are present. Fix FTBFS
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Sun, 21 Nov 2010 12:58:32 +0530
+
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu1) natty; urgency=low
+
+  * Initial release.  Snapshot of edid-decode taken today from:
+    http://cgit.freedesktop.org/xorg/app/edid-decode/
+
+ -- Bryce Harrington <bryce@ubuntu.com>  Tue, 16 Nov 2010 17:30:46 -0800
