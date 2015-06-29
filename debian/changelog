@@ -1,3 +1,13 @@
+edid-decode (0.1~git20140128.afcf2a2e-1) unstable; urgency=medium
+
+  * First upload to Debian.
+  * New upstream snapshot.
+  * New maintainer.
+  * Update debian/rules to use the debhelper short form.
+  * Patch Makefile to use proper flags.
+
+ -- Andrew Shadura <andrewsh@debian.org>  Mon, 29 Jun 2015 13:27:23 +0200
+
 edid-decode (0.1~git20100205.26c03c8e-0ubuntu3) natty; urgency=low
 
   * The package depends on debhelper >= 7; hence, set debian/compat to "7"
