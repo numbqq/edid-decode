@@ -1,3 +1,13 @@
+edid-decode (0.1~git20160708.c72db881-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Add Vcs-* fields.
+  * Use a better synopsis in the description field.
+  * Use debhelper 10.
+  * Add gbp.conf.
+
+ -- Andrew Shadura <andrewsh@debian.org>  Tue, 13 Dec 2016 16:43:56 +0100
+
 edid-decode (0.1~git20140128.afcf2a2e-1) unstable; urgency=medium
 
   * First upload to Debian.
