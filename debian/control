@@ -10,7 +10,7 @@ Standards-Version: 3.9.6
 Package: edid-decode
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Decodes to text the binary EDID information from monitors
+Description: decode the binary EDID information from monitors
  EDID is binary data encoded in the monitor firmware, which the kernel
  exposes via /sys/devices/.../drm/card*/card*/edid.  edid-decode renders
  this binary data into a human-readable text form.
