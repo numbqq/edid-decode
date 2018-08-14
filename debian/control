@@ -8,6 +8,7 @@ Build-Depends:
 Standards-Version: 3.9.6
 Vcs-Git: https://salsa.debian.org/debian/edid-decode.git
 Vcs-Browser: https://salsa.debian.org/debian/edid-decode
+Homepage: https://git.linuxtv.org/edid-decode.git/
 
 Package: edid-decode
 Architecture: any
