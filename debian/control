@@ -1,7 +1,7 @@
 Source: edid-decode
 Section: x11
 Priority: optional
-Maintainer: Andrew Shadura <andrewsh@debian.org>
+Maintainer: Andrej Shadura <andrewsh@debian.org>
 Build-Depends:
  debhelper (>= 11),
  pkg-config,
