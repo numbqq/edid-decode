@@ -6,6 +6,8 @@ Build-Depends:
  debhelper (>= 10),
  pkg-config,
 Standards-Version: 3.9.6
+Vcs-Git: https://salsa.debian.org/debian/edid-decode.git
+Vcs-Browser: https://salsa.debian.org/debian/edid-decode
 
 Package: edid-decode
 Architecture: any
