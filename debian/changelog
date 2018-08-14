@@ -1,3 +1,13 @@
+edid-decode (0.1~git20180813.b2da1516-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Drop the patch reimplemented upstream.
+  * Actually add Vcs-*.
+  * Use debhelper 11.
+  * Bump Standards-Version (no changes).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 14 Aug 2018 16:04:46 +0200
+
 edid-decode (0.1~git20160708.c72db881-1) unstable; urgency=medium
 
   * New upstream snapshot.
