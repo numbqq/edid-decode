@@ -661,11 +661,11 @@ static void print_standard_timing(uint8_t b1, uint8_t b2)
 		min_hor_freq_hz = min(min_hor_freq_hz, hor_freq_hz);
 		max_hor_freq_hz = max(max_hor_freq_hz, hor_freq_hz);
 		max_pixclk_khz = max(max_pixclk_khz, pixclk_khz);
-		printf("  %dx%d@%dHz %d:%d HorFreq: %d Hz Clock: %.3f MHz\n",
+		printf("  S:%dx%d@%dHz %d:%d HorFreq: %d Hz Clock: %.3f MHz\n",
 		       x, y, refresh, ratio_w, ratio_h,
 		       hor_freq_hz, pixclk_khz / 1000.0);
 	} else {
-		printf("  %dx%d@%dHz %d:%d\n",
+		printf("  S:%dx%d@%dHz %d:%d\n",
 		       x, y, refresh, ratio_w, ratio_h);
 	}
 }
@@ -3131,7 +3131,7 @@ static int edid_from_file(const char *from_file, const char *to_file,
 			min_hor_freq_hz = min(min_hor_freq_hz, established_timings[i].hor_freq_hz);
 			max_hor_freq_hz = max(max_hor_freq_hz, established_timings[i].hor_freq_hz);
 			max_pixclk_khz = max(max_pixclk_khz, established_timings[i].pixclk_khz);
-			printf("  %dx%d%s@%dHz %u:%u HorFreq: %d Hz Clock: %.3f MHz\n",
+			printf("  E:%dx%d%s@%dHz %u:%u HorFreq: %d Hz Clock: %.3f MHz\n",
 			       established_timings[i].x, established_timings[i].y,
 			       established_timings[i].interlaced ? "i" : "",
 			       established_timings[i].refresh,
