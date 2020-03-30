@@ -1,3 +1,9 @@
+edid-decode (0.1~git20200331.11f97037) UNRELEASED; urgency=medium
+
+   * Update version
+
+   -- Nick Xie <nick@khadas.com>  Tue, 31 Mar 2020 01:04:38 +0800
+
 edid-decode (0.1~git20191203.11f97037) UNRELEASED; urgency=medium
 
   * Add some marks
